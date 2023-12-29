@@ -6,9 +6,9 @@ module.exports = {
     once: true,
     execute(client) {
         client.user.setActivity({
-            name: 'YouTube: MZRDev',
+            name: 'YouTube: AYG BABA',
             type: ActivityType.Streaming,
-            url: "https://www.twitch.tv/mzrdev"
+            url: "https://www.twitch.tv/aygbaba56"
         });
 
         loadCommands(client);
